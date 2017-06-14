@@ -20,8 +20,8 @@ chmod 777 /dev/ttyUSB1
 mv /home/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
 mv /home/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
 
-python /home/SerialKepco/setup.py install
-python /home/SerialKepco/setup2.py install
-python /home/SerialKepco/setup3.py install
+python /home/MIPVC/setup.py install
+python /home/MIPVC/setup2.py install
+python /home/MIPVC/setup3.py install
 
 
