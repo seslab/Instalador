@@ -22,8 +22,8 @@ mv /home/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
 mv /home/MIPVC/usbtmc.rules /etc/udev/rules.d
 mv /home/MIPVC/usbtmc.rules.save /etc/udev/rules.d
 
-python /home/MIPVC/setup.py install
-python /home/MIPVC/setup2.py install
-python /home/MIPVC/setup3.py install
+cd /home/MIPVC
 
-
+python setup.py install
+python setup2.py install
+python setup3.py install
