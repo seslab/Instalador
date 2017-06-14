@@ -19,6 +19,8 @@ chmod 777 /dev/ttyUSB1
 
 mv /home/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
 mv /home/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
+mv /home/MIPVC/usbtmc.rules /etc/udev/rules.d
+mv /home/MIPVC/usbtmc.rules.save /etc/udev/rules.d
 
 python /home/MIPVC/setup.py install
 python /home/MIPVC/setup2.py install
