@@ -3,8 +3,9 @@
 cd /home/
 pip install numpy
 apt-get install python-matplotlib
+apt-get install python-scipy
 pip install pyserial
-
+pip install PyUSB
 apt-get install python python-tk idle python-pmw python-imaging
 git clone https://github.com/seslab/MIPVC.git
 https://github.com/python-ivi/python-usbtmc.git
