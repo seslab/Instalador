@@ -17,11 +17,8 @@ usermode -a -G usbtmc seslab
 chmod 777 /dev/ttyUSB0
 chmod 777 /dev/ttyUSB1
 
-mv /home/SerialKepco/button.py /usr/local/lib/python2.7/dist-packages
-mv /home/SerialKepco/graphics.py /usr/local/lib/python2.7/dist-packages
-mv /home/SerialKepco/graphics.py /usr/local/lib/python2.7/dist-packages
-mv /home/SerialKepco/graphics.py /usr/local/lib/python2.7/dist-packages
-mv /home/SerialKepco/graphics.py /usr/local/lib/python2.7/dist-packages
+mv /home/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
+mv /home/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
 
 python /home/SerialKepco/setup.py install
 python /home/SerialKepco/setup2.py install
