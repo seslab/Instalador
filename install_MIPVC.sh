@@ -5,7 +5,7 @@ pip install numpy
 apt-get install python-matplotlib
 pip install pyserial
 apt-get install python python-tk idle python-pmw python-imaging
-git clone https://github.com/javiercr28/SerialKepco
+git clone https://github.com/seslab/MIPVC.git
 pip install adafruit-ads1x15
 apt-get install -y python-smbus
 apt-get install -y i2c-tools
