@@ -25,6 +25,7 @@ mv /home/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
 mv /home/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
 mv /home/MIPVC/usbtmc.rules /etc/udev/rules.d
 mv /home/MIPVC/usbtmc.rules.save /etc/udev/rules.d
+mv /home/MIPVC/MIPVC/MIPVC.desktop /home/pi/Desktop
 
 cd /home/MIPVC
 python setup.py install
