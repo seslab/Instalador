@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-cd /home/
+mkdir /home/SESLab
+cd /home/SESLab
 pip install numpy
 apt-get install python-matplotlib
 apt-get install python-scipy
@@ -21,15 +22,15 @@ usermode -a -G usbtmc seslab
 chmod 777 /dev/ttyUSB0
 chmod 777 /dev/ttyUSB1
 
-mv /home/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
-mv /home/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
-mv /home/MIPVC/usbtmc.rules /etc/udev/rules.d
-mv /home/MIPVC/usbtmc.rules.save /etc/udev/rules.d
-mv /home/MIPVC/MIPVC/MIPVC.desktop /home/pi/Desktop
+mv /home/SESLab/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
+mv /home/SESLab/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
+mv /home/SESLab/MIPVC/usbtmc.rules /etc/udev/rules.d
+mv /home/SESLab/MIPVC/usbtmc.rules.save /etc/udev/rules.d
+mv /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/pi/Desktop
 
-cd /home/MIPVC
+cd /home/SESLab/MIPVC
 python setup.py install
 python setup2.py install
 python setup3.py install
-cd /home/python-usbtmc
+cd /home/SESLab/python-usbtmc
 python setup.py install
