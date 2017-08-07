@@ -21,6 +21,7 @@ usermode -a -G usbtmc seslab
 
 chmod 777 /dev/ttyUSB0
 chmod 777 /dev/ttyUSB1
+chmod 777 -R /home/SESLab/
 
 mv /home/SESLab/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
 mv /home/SESLab/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
