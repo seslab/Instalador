@@ -27,7 +27,10 @@ mv /home/SESLab/MIPVC/button.py /usr/local/lib/python2.7/dist-packages
 mv /home/SESLab/MIPVC/graphics.py /usr/local/lib/python2.7/dist-packages
 mv /home/SESLab/MIPVC/usbtmc.rules /etc/udev/rules.d
 mv /home/SESLab/MIPVC/usbtmc.rules.save /etc/udev/rules.d
-mv /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/pi/Desktop
+cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/pi/Desktop
+cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/seslab/Desktop
+cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/pi/.config/autostart
+cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/seslab/.config/autostart
 
 cd /home/SESLab/MIPVC
 python setup.py install
