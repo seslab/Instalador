@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+dconf write /org/gnome/desktop/screensaver/lock-enabled false
+dconf write /org/mate/panel/toplevels/bottom/auto-hide true
 mkdir /home/SESLab
 cd /home/SESLab
 pip install numpy
@@ -31,6 +33,7 @@ cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/pi/Desktop
 cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/seslab/Desktop
 cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/pi/.config/autostart
 cp /home/SESLab/MIPVC/MIPVC/MIPVC.desktop /home/seslab/.config/autostart
+cp /home/SESLab/MIPVC/MIPVC/runMIPVC.desktop /home/bin
 
 cd /home/SESLab/MIPVC
 python setup.py install
